@@ -52,3 +52,15 @@ print(waypoints)
 # YOUR CODE HERE
 for val in waypoints:
     print(val.values())
+
+
+# nested list comprehensions // same output as above
+# [print(waypoint[key]) for waypoint in waypoints for key in waypoints]
+
+# # another example
+# for a in b:
+#     for b in a:
+#         for d in c:
+#             d
+# # ^ same same
+# [d for a in b for c in a for d in c]
